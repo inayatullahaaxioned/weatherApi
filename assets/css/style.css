@@ -103,30 +103,123 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
-
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 /*=================================
   main styling starts here
 =================================*/
+.weather {
+  background-color: #C4E3ED;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
 
+.weather-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 
+.weather-details h3 {
+  margin-bottom: 25px;
+}
 
+.detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
+.detail {
+  display: flex;
+  justify-content: space-between;
+}
 
+.heading {
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
 
+.search,
+.submit-btn {
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 20px rgb(0 0 0 / 40%);
+}
 
+.search {
+  padding: 12px 25px;
+  flex-basis: 65%;
+  font-size: 18px;
+}
+
+.submit-btn {
+  flex-basis: 25%;
+  border-radius: 50px; 
+  font-size: 18px;
+}
+
+.weather-box {
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 1px 1px 50px rgb(0 0 0 / 50%);
+}
+
+.weather-data {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 15px;
+}
+
+.weather-details {
+  margin: 15px;
+  flex-basis: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.degree {
+  font-size: 35px;
+}
+
+.data {
+  margin: 20px 0;
+}
+
+.data h2 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.temp figcaption {
+  margin: 20px 0;
+}
 /*=================================
   main styling ends here
 =================================*/
