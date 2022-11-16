@@ -259,31 +259,31 @@ li {
 }
 
 .snow::before {
-  background: url(/assets/images/snow.jpg) rgba(0, 0, 0, .4) center no-repeat;
+  background: url(../images/snow.jpg) rgba(0, 0, 0, .4) center no-repeat;
 }
 
 .smoke::before {
-  background: url(/assets/images/smoke.jpg) rgba(0, 0, 0, .4) center no-repeat;
+  background: url(../images/smoke.jpg) rgba(0, 0, 0, .4) center no-repeat;
 }
 
 .thuderstorm::before {
-  background: url(/assets/images/thunderstorm.jpg) rgba(0, 0, 0, .4) center no-repeat;
+  background: url(../images/thunderstorm.jpg) rgba(0, 0, 0, .4) center no-repeat;
 }
 
 .clear::before {
-  background: url(/assets/images/clear.jpg) rgba(0, 0, 0, .4) center no-repeat;
+  background: url(../images/clear.jpg) rgba(0, 0, 0, .4) center no-repeat;
 }
 
 .clouds::before {
-  background: url(/assets/images/cloudy.jpg) rgba(0, 0, 0, .4) center no-repeat;
+  background: url(../images/cloudy.jpg) rgba(0, 0, 0, .4) center no-repeat;
 }
 
 .haze::before {
-  background: url(/assets/images/haze.jpg) rgba(0, 0, 0, .4) center no-repeat;
+  background: url(../images/haze.jpg) rgba(0, 0, 0, .4) center no-repeat;
 }
 
 .rain::before {
-  background: url(/assets/images/rainy.jpg) rgba(0, 0, 0, .4) center no-repeat;
+  background: url(../images/rainy.jpg) rgba(0, 0, 0, .4) center no-repeat;
 }
 /*=================================
   main styling ends here
